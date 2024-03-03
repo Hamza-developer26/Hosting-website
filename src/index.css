@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active{
+    font-weight: 600;
+    background: -webkit-linear-gradient(90deg, rgba(20,65,149,1) 0%, rgba(4,184,233,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text{
+    background: -webkit-linear-gradient(90deg, rgba(20,65,149,1) 0%, rgba(4,184,233,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button-gradient{
+    background: linear-gradient(90deg, rgba(20,65,149,1) 0%, rgba(4,184,233,1) 100%);
+}
+
+.gradient-arrow {
+  mask-image: linear-gradient(90deg, transparent 0%, black 50%, transparent 100%);
+}
+.gradient-text {
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(90deg, #ff8a00, #e52e71); /* Adjust gradient colors */
+  }
+.gradient{
+    background: linear-gradient(90deg, rgba(20,65,149,1) 0%, rgba(4,184,233,1) 100%);
+}
+.backgroundImage{
+    position:absolute;
+    float:right;    
+    top:0;
+    left:50%;
+    z-index: 999;
+    }
