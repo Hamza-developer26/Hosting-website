@@ -2,24 +2,21 @@ import { useEffect } from "react";
 import { service } from "../constants/index";
 import { motion, useAnimation } from "framer-motion";
 
-
-
-
 const Services = () => {
   const controls = useAnimation();
 
-useEffect(() => {
-  controls.start({ opacity: 2, y: 0, transition: { duration: 1 }});
-}, [controls]);
+  useEffect(() => {
+    controls.start({ opacity: 2, y: 0, transition: { duration: 1 } });
+  }, [controls]);
   return (
     <section className="bg-primary  text-center py-10">
-      <div className="text-3xl text-white font-orbitron sm:text-[16px]">
+      <div className="text-3xl  sm:text-4xl md:text-5xl lg:text-3xl text-white font-orbitron  ">
         <h2>
           We Always Provide The Best <span className="text"> Service </span> To
           Present
         </h2>
       </div>
-      <p className="text-white font-poppins font-light py-5 text-[16px] sm:text-[10px] ">
+      <p className="text-white font-poppins font-light py-5 text-base sm:text-xs md:text-sm lg:text-base">
         We present a variety of conveniences in our service that you can enjoy
         easily without any problems
       </p>
@@ -27,7 +24,7 @@ useEffect(() => {
         {service.map((services) => (
           <div
             key={services.id}
-            className="bg-[#001F31] p-10 m-4 w-[400px] rounded-xl"
+            className="bg-[#001F31] p-10 m-4 w-[400px] rounded-xl transform transition-transform hover:scale-95  cursor-pointer"
           >
             <motion.img
               src={services.img}
