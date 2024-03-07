@@ -53,7 +53,7 @@ const Servers = () => {
         }}
       >
         <SwiperSlide>
-          <img src={Carousel2} alt="" className="w-[700px] px-[100px] h-[100px] md:w-full md:h-auto " />
+          <img src={Carousel2} alt="" className="relative h-[200px]" />
           <h2 className="text-center text-sm sm:text-xl text-white font-orbitron py-5">
             Need For Speed
           </h2>

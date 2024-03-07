@@ -29,7 +29,7 @@ const Header = () => {
             iaculis <br /> nulla purus est elit ut. Turpis bibendum posuere urna
             consectetur.
           </p>
-          <button className="font-poppins text-white button-gradient text-[15px] w-[120px] h-[50px] rounded  block mx-auto  md:mx-0 md:my-0">
+          <button className="font-poppins text-white button-gradient text-[15px] w-[120px] h-[50px] rounded  block mx-auto my-4 md:mx-0 md:my-0">
             Sign up
           </button>
         </div>

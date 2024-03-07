@@ -30,8 +30,8 @@ function App() {
           <Route path="vpshosting" element={<Vpserver/>}/>
           <Route path="gameservers" element={<Gameserver/>}/>
       <Route path="/customers/*" element={<Customers />}/>
-      <Route path="/Signup" element={<Signup />}/>
-      <Route path="/Login" element={<Login />}/>
+      <Route path="/signup" element={<Signup />}/>
+      <Route path="/login" element={<Login />}/>
     </Routes>
     <Footer />
     </>
