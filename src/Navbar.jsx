@@ -42,7 +42,7 @@ const Navbar = () => {
       </nav>
       <div className="hidden md:block space-x-[40px] ">
         <button className="w-[80px] h-[50px] rounded border-[rgba(20,65,149,1)] border-[2px]">
-          <NavLink to="/login">Login</NavLink>
+          <NavLink to="/login ">Login</NavLink>
         </button>
         <button className=" rounded w-[80px] h-[50px] border-[rgba(20,65,149,1)] border-[2px] ">
           <NavLink to="/signup">Signup</NavLink>
